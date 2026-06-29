@@ -56,6 +56,6 @@ git clone --recurse-submodules https://github.com/LaneMelancon/nsatx-store.git
 
 ## Rules
 - Keep this markdown file clean and well structured as the high-level project overview
-- Keep this markdown file up to date with project changes or additions
+- After any session that introduces structural changes, new repos, new tooling, or completed milestones — update the relevant CLAUDE.md files to reflect the current state before closing out
 - Use `design-system` to reference design-related information for this project
 - Use `import-products` only when instructed to import products into Shopify
