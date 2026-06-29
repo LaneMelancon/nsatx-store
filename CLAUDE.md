@@ -12,12 +12,12 @@ This is the parent repository for the NeuroSolution Center of Austin Supplement 
 
 ## GitHub Repositories
 
-| Repo | URL | Purpose |
-| ---- | --- | ------- |
-| `nsatx-store` | `https://github.com/LaneMelancon/nsatx-store` | Parent repo (this file) |
-| `nsatx-store-design-system` | `https://github.com/LaneMelancon/nsatx-store-design-system` | Design system — deployed to GitHub Pages |
-| `nsatx-store-import-products` | `https://github.com/LaneMelancon/nsatx-store-import-products` | Shopify GraphQL bulk product import pipeline |
-| `nsatx-store-shopify-theme` | `https://github.com/LaneMelancon/nsatx-store-shopify-theme` | Shopify theme — to be connected to dev store via GitHub integration |
+| Repo                          | URL                                                           | Purpose                                                             |
+| ----------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `nsatx-store`                 | `https://github.com/LaneMelancon/nsatx-store`                 | Parent repo (this file)                                             |
+| `nsatx-store-design-system`   | `https://github.com/LaneMelancon/nsatx-store-design-system`   | Design system — deployed to GitHub Pages                            |
+| `nsatx-store-import-products` | `https://github.com/LaneMelancon/nsatx-store-import-products` | Shopify GraphQL bulk product import pipeline                        |
+| `nsatx-store-shopify-theme`   | `https://github.com/LaneMelancon/nsatx-store-shopify-theme`   | Shopify theme — to be connected to dev store via GitHub integration |
 
 ## Directory Structure
 
@@ -33,10 +33,11 @@ nsatx-store/                  ← parent repo root
 ```
 
 ## Important Markdown Files
+
 - `nsatx-store/CLAUDE.md` – (this file) **Read First**
 - `nsatx-store/design-system/CLAUDE.md` – comprehensive design system documentation **Read Second**
 - `nsatx-store/import-products/CLAUDE.md` – bulk product import project documentation **Read Third**
-- `nsatx-store/shopify-theme/CLAUDE.md` – Shopify theme documentation **Read Fourth**
+- `nsatx-store/shopify-theme/CLAUDE.md` – Shopify theme and AI Toolkit/Dev MCP documentation **Read Fourth**
 
 ## Working with Submodules
 
@@ -50,11 +51,13 @@ git push
 ```
 
 When cloning fresh:
+
 ```bash
 git clone --recurse-submodules https://github.com/LaneMelancon/nsatx-store.git
 ```
 
 ## Rules
+
 - Keep this markdown file clean and well structured as the high-level project overview
 - After any session that introduces structural changes, new repos, new tooling, or completed milestones — update the relevant CLAUDE.md files to reflect the current state before closing out
 - Use `design-system` to reference design-related information for this project
