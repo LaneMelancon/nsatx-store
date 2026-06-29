@@ -1,0 +1,9 @@
+[submodule "design-system"]
+	path = design-system
+	url = https://github.com/LaneMelancon/nsatx-store-design-system.git
+[submodule "import-products"]
+	path = import-products
+	url = https://github.com/LaneMelancon/nsatx-store-import-products.git
+[submodule "shopify-theme"]
+	path = shopify-theme
+	url = https://github.com/LaneMelancon/nsatx-store-shopify-theme.git
