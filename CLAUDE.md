@@ -28,6 +28,8 @@ nsatx-store/                  ← parent repo root
 ├── .gitignore
 ├── .gitmodules               ← submodule config
 ├── design-system/            ← submodule: nsatx-store-design-system
+│   ├── CLAUDE.md              ← design system high-level overview
+│   └── DESIGN.md              ← full design system reference (tokens, type, components)
 ├── import-products/          ← submodule: nsatx-store-import-products
 └── shopify-theme/            ← submodule: nsatx-store-shopify-theme
 ```
@@ -35,9 +37,10 @@ nsatx-store/                  ← parent repo root
 ## Important Markdown Files
 
 - `nsatx-store/CLAUDE.md` – (this file) **Read First**
-- `nsatx-store/design-system/CLAUDE.md` – comprehensive design system documentation **Read Second**
-- `nsatx-store/import-products/CLAUDE.md` – bulk product import project documentation **Read Third**
-- `nsatx-store/shopify-theme/CLAUDE.md` – Shopify theme and AI Toolkit/Dev MCP documentation **Read Fourth**
+- `nsatx-store/design-system/CLAUDE.md` – design system high-level overview **Read Second**
+- `nsatx-store/design-system/DESIGN.md` – comprehensive design system reference (tokens, typography, components) **Read Third**
+- `nsatx-store/import-products/CLAUDE.md` – bulk product import project documentation **Read Fourth**
+- `nsatx-store/shopify-theme/CLAUDE.md` – Shopify theme and AI Toolkit/Dev MCP documentation **Read Fifth**
 
 ## Working with Submodules
 
