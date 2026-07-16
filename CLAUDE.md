@@ -27,7 +27,7 @@ nsatx-store/                  ← parent repo root
 ├── .gitmodules               ← submodule config
 ├── design-system/            ← submodule: nsatx-store-design-system
 │   ├── CLAUDE.md              ← design system high-level overview
-│   └── DESIGN.md              ← full design system reference (tokens, type, components)
+│   └── DESIGN.md              ← full design system reference (tokens, type, etc.)
 ├── import-products/          ← submodule: nsatx-store-import-products
 └── shopify-theme/            ← submodule: nsatx-store-shopify-theme
 ```
